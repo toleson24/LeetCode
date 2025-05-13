@@ -1,3 +1,4 @@
+// runtime: 19.47%, memory: 99.97%
 class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer, Boolean> map = new HashMap<>();
