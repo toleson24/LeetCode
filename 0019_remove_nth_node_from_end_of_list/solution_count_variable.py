@@ -6,6 +6,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+# runtime: 100.00%, memory: 84.45%
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         count: int = 0
