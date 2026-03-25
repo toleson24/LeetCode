@@ -1,8 +1,12 @@
+from typing import Optional 
+
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+# runtime: 0.64%, memory: 100.00% 
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # edge case: empty list
